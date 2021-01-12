@@ -1,3 +1,3 @@
-export const incrementNumber = (numberPassed: number): number => {
-  return numberPassed + 1
+export const incrementNumber = (startingNumber: number): number => {
+  return startingNumber + 1
 }
