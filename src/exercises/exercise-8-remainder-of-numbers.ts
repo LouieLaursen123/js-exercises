@@ -1,5 +1,5 @@
 /**
- * Function that converts minutes to seconds
+ * Function that returns the remainder of the division
  * @param divisionOne - first number of the division
  * @param divisionTwo - second number of the division
  * @returns the remainder of the divided by the second parameter
