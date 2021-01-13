@@ -1,7 +1,5 @@
 /**
- * Function that converts ages to days
- * @param age - The amount of ages
- * @returns The converted days from ages, by the amount of days there is for one age
+ * Function that takes the first value from the array
  */
 
 const getFirstValue = [90, 50, 7, 100, 150]
