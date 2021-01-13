@@ -2,8 +2,10 @@
 import { minutesToSeconds } from './exercises/exercise-1-minutes-to-seconds'
 //Exercise 2 import
 import { incrementNumber } from './exercises/exercise-2-increment-number'
-//Exervise 3 import
+//Exercise 3 import
 import { triangleArea } from './exercises/exercise-3-triangle'
+//Exercise 4 import
+import { ageToDays } from './exercises/exercise-4-age-to-days'
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -11,3 +13,5 @@ console.log(minutesToSeconds(10))
 console.log(incrementNumber(0))
 //Exercise 3
 console.log(triangleArea(3, 5))
+//Exercise 4
+console.log(ageToDays(20))
