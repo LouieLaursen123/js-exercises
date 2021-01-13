@@ -1,8 +1,8 @@
 /**
  * Function that converts ages to days
- * @param age - The amount of ages
- * @returns The converted days from ages, by the amount of days there is for one age
+ * @param year - The amount of years
+ * @returns - The years and return them as days
  */
-export const ageToDays = (age: number): number => {
-  return age * 365
+export const ageToDays = (year: number): number => {
+  return year * 365
 }
