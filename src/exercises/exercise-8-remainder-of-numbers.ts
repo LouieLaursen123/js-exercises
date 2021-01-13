@@ -1,8 +1,8 @@
 /**
  * Function that converts minutes to seconds
- * @param hours - Amount of hours that is to be converted to seconds
- * @var seconds - variable for the amount of seconds since its being reused
- * @returns hours input times 60
+ * @param divisionOne - first number of the division
+ * @param divisionTwo - second number of the division
+ * @returns the remainder of the divided by the second parameter
  */
 
 export const remainderOfNumbers = (
