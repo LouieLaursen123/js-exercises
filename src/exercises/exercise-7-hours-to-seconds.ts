@@ -1,7 +1,8 @@
 /**
  * Function that converts minutes to seconds
- * @param minutes - Amount of minutes that is to be converted to seconds
- * @returns minutes input times 60
+ * @param hours - Amount of hours that is to be converted to seconds
+ * @var seconds - variable for the amount of seconds since its being reused
+ * @returns hours input times 60
  */
 
 let seconds = 60
