@@ -6,9 +6,5 @@
  */
 
 export const andOperator = (valueOne: boolean, valueTwo: boolean): boolean => {
-  if (valueOne && valueTwo) {
-    return true
-  } else {
-    return false
-  }
+  return valueOne && valueTwo ? true : false
 }
