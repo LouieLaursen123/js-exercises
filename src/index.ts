@@ -18,4 +18,4 @@ console.log(triangleArea(3, 5))
 //Exercise 4
 console.log(ageToDays(20))
 //Exercise 13
-console.log(addupNumbers(4))
+console.log(addupNumbers(5))
