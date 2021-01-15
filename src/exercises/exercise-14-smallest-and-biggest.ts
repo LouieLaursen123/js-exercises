@@ -6,5 +6,5 @@
 const numbersList = [1, 3, 7, 11, 21]
 
 export const minMax = (): number => {
-  return Math.min(...numbersList) && Math.max(...numbersList)
+  return Math.min, Math.max(...numbersList)
 }
