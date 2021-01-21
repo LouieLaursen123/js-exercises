@@ -17,6 +17,9 @@ import { lessThanHundred } from './exercises/exercise-10-less-than-hundred'
 //Exercise 14 import
 import { minMax } from './exercises/exercise-14-smallest-and-biggest'
 
+//Exercise 14 Array
+const numbersList = [1, 3, 7, 11, 21]
+
 //Exervise 1
 console.log(minutesToSeconds(10))
 //Exercise 2
@@ -34,4 +37,7 @@ console.log(lessThenZero(1))
 //Exercise 10
 console.log(lessThanHundred(45, 13))
 //Exercise 14
-console.log(minMax())
+console.log(
+  minMax(Math.min(...numbersList), Math.max(...numbersList)),
+  Math.max(...numbersList)
+)
