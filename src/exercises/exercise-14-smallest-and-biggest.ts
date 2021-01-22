@@ -5,9 +5,6 @@
 
 const numbersList = [1, 3, 7, 11, 21]
 
-export const minMax = (
-  smallestNumber: number,
-  biggestNumber: number
-): number => {
-  return smallestNumber & biggestNumber
+export const minMax = () => {
+  return [Math.min(...numbersList), Math.max(...numbersList)]
 }
