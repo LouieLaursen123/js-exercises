@@ -1,6 +1,6 @@
 /**
- * Function that adds up numbers from 1
- * @returns The overall sum of the value from startNum from number 1
+ * Function sorts the drinks in a ascending order by price
+ * @returns A new array with the drinks having a ascending order by price
  */
 
 const drinks = [
@@ -9,6 +9,9 @@ const drinks = [
   { name: 'cola', price: 25 },
 ]
 
-export const sortDrinksByPrice = (): Number => {
-  return drinks.sort()
+export const sortDrinksByPrice = () => {
+  const sortedPrices = drinks.sort(
+    (cheapest, expensive) => cheapest.price - expensive.price
+  )
+  return sortedPrices
 }
