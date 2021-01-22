@@ -14,6 +14,8 @@ import { remainderOfNumbers } from './exercises/exercise-8-remainder-of-numbers'
 import { lessThenZero } from './exercises/exercise-9-less-than-zero'
 //Exercise 10 import
 import { lessThanHundred } from './exercises/exercise-10-less-than-hundred'
+//Exercise 15 import
+import { sortDrinksByPrice } from './exercises/exercise-15-sort-drinking'
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -31,3 +33,5 @@ console.log(remainderOfNumbers(15, 10))
 console.log(lessThenZero(1))
 //Exercise 10
 console.log(lessThanHundred(45, 13))
+//Exercise 15
+console.log(sortDrinksByPrice())
