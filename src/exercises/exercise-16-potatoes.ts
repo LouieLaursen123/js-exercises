@@ -4,10 +4,10 @@
  * @returns minutes input times 60
  */
 
-const potatoesStr = 'potatopotato'
-var potatoAmount = /potato/i
-const foundPotato = potatoesStr.match(potatoAmount)
+const potatoesStr: string = 'potatopotatoapplepotato'
 
-export const potatoes = (amountOfPotatoes: number): number => {
-  return amountOfPotatoes
+export const potatoes = (): number => {
+  const potatoAmount = /potato/
+  const foundPotato = potatoesStr.match(potatoAmount)
+  return potatoesStr.search(/potato/g)
 }

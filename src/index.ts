@@ -34,4 +34,4 @@ console.log(lessThenZero(1))
 //Exercise 10
 console.log(lessThanHundred(45, 13))
 //Exercise 16
-console.log(potatoes)
+console.log(potatoes())
