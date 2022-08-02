@@ -23,6 +23,8 @@ import { lessThenZero } from './exercises/exercise-9-less-than-zero'
 import { lessThanHundred } from './exercises/exercise-10-less-than-hundred'
 //Exercise 11 import
 import { andOperator } from './exercises/Exercise-11-operator'
+//Exercise 12 import
+import { equalNumbers } from './exercises/exercise-12-equal-numbers'
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -46,3 +48,5 @@ console.log(lessThenZero(1))
 console.log(lessThanHundred(45, 13))
 //Exercise 11
 console.log(andOperator(true, false))
+//Exercise 12
+console.log(equalNumbers(3, 3))
