@@ -25,6 +25,8 @@ import { lessThanHundred } from './exercises/exercise-10-less-than-hundred'
 import { andOperator } from './exercises/Exercise-11-operator'
 //Exercise 12 import
 import { equalNumbers } from './exercises/exercise-12-equal-numbers'
+//Exercise 13 import
+import { addupNumbers } from './exercises/exercise-13-addup-numbers'
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -50,3 +52,5 @@ console.log(lessThanHundred(45, 13))
 console.log(andOperator(true, false))
 //Exercise 12
 console.log(equalNumbers(3, 3))
+//Exercise 13
+console.log(addupNumbers(5))
