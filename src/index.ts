@@ -8,6 +8,9 @@ import { triangleArea } from './exercises/exercise-3-triangle'
 import { ageToDays } from './exercises/exercise-4-age-to-days'
 //Exercise 5 import
 import { powerCalculator } from './exercises/exercise-5-power-calculator'
+//Array for exercise 6
+const getFirstValue = [90, 50, 7, 100, 150]
+const [firstValue] = getFirstValue
 //Exercise 7 import
 import { hoursToSeconds } from './exercises/exercise-7-hours-to-seconds'
 //Exercise 8 import
@@ -16,6 +19,8 @@ import { remainderOfNumbers } from './exercises/exercise-8-remainder-of-numbers'
 import { lessThenZero } from './exercises/exercise-9-less-than-zero'
 //Exercise 10 import
 import { lessThanHundred } from './exercises/exercise-10-less-than-hundred'
+//Exercise 6 import
+import { getFirstIndex } from './exercises/exercise-6-first-element-array'
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -27,6 +32,8 @@ console.log(triangleArea(3, 5))
 console.log(ageToDays(20))
 //Exercise 5
 console.log(powerCalculator(230, 10))
+//Exercise 6
+console.log(getFirstIndex(firstValue))
 //Exercise 7
 console.log(hoursToSeconds(3))
 //Exercise 8
