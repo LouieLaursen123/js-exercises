@@ -33,32 +33,32 @@ import { minMax } from './exercises/exercise-14-smallest-and-biggest'
 import { sortDrinksByPrice } from './exercises/exercise-15-sort-drinking'
 
 //Exervise 1
-console.log(minutesToSeconds(10))
+console.log('Exercise 1: ', minutesToSeconds(10))
 //Exercise 2
-console.log(incrementNumber(0))
+console.log('Exercise 2: ', incrementNumber(0))
 //Exercise 3
-console.log(triangleArea(3, 5))
+console.log('Exercise 3: ', triangleArea(3, 5))
 //Exercise 4
-console.log(ageToDays(20))
+console.log('Exercise 4: ', ageToDays(20))
 //Exercise 5
-console.log(powerCalculator(230, 10))
+console.log('Exercise 5: ', powerCalculator(230, 10))
 //Exercise 6
-console.log(getFirstIndex(firstValue))
+console.log('Exercise 6: ', getFirstIndex(firstValue))
 //Exercise 7
-console.log(hoursToSeconds(3))
+console.log('Exercise 7: ', hoursToSeconds(3))
 //Exercise 8
-console.log(remainderOfNumbers(15, 10))
+console.log('Exercise 8: ', remainderOfNumbers(15, 10))
 //Exercise 9
-console.log(lessThenZero(1))
+console.log('Exercise 9: ', lessThenZero(1))
 //Exercise 10
-console.log(lessThanHundred(45, 13))
+console.log('Exercise 10: ', lessThanHundred(45, 13))
 //Exercise 11
-console.log(andOperator(true, false))
+console.log('Exercise 11: ', andOperator(true, false))
 //Exercise 12
-console.log(equalNumbers(3, 3))
+console.log('Exercise 12: ', equalNumbers(3, 3))
 //Exercise 13
-console.log(addupNumbers(5))
+console.log('Exercise 13: ', addupNumbers(5))
 //Exercise 14
-console.log(minMax())
+console.log('Exercise 14: ', minMax())
 //Exercise 15
-console.log(sortDrinksByPrice())
+console.log('Exercise 15: ', sortDrinksByPrice())
