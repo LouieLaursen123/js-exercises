@@ -27,6 +27,8 @@ import { andOperator } from './exercises/Exercise-11-operator'
 import { equalNumbers } from './exercises/exercise-12-equal-numbers'
 //Exercise 13 import
 import { addupNumbers } from './exercises/exercise-13-addup-numbers'
+//Exercise 14 import
+import { minMax } from './exercises/exercise-14-smallest-and-biggest'
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -54,3 +56,5 @@ console.log(andOperator(true, false))
 console.log(equalNumbers(3, 3))
 //Exercise 13
 console.log(addupNumbers(5))
+//Exercise 14
+console.log(minMax())
