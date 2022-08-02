@@ -6,7 +6,6 @@ import { incrementNumber } from './exercises/exercise-2-increment-number'
 import { triangleArea } from './exercises/exercise-3-triangle'
 //Exercise 4 import
 import { ageToDays } from './exercises/exercise-4-age-to-days'
-<<<<<<< HEAD
 //Exercise 5 import
 import { powerCalculator } from './exercises/exercise-5-power-calculator'
 //Exercise 6 import
