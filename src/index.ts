@@ -21,6 +21,7 @@ import { remainderOfNumbers } from './exercises/exercise-8-remainder-of-numbers'
 import { lessThenZero } from './exercises/exercise-9-less-than-zero'
 //Exercise 10 import
 import { lessThanHundred } from './exercises/exercise-10-less-than-hundred'
+<<<<<<< HEAD
 //Exercise 11 import
 import { andOperator } from './exercises/Exercise-11-operator'
 //Exercise 12 import
@@ -29,6 +30,10 @@ import { equalNumbers } from './exercises/exercise-12-equal-numbers'
 import { addupNumbers } from './exercises/exercise-13-addup-numbers'
 //Exercise 14 import
 import { minMax } from './exercises/exercise-14-smallest-and-biggest'
+=======
+//Exercise 15 import
+import { sortDrinksByPrice } from './exercises/exercise-15-sort-drinking'
+>>>>>>> Exercise-15-sort-drinking
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -50,6 +55,7 @@ console.log(remainderOfNumbers(15, 10))
 console.log(lessThenZero(1))
 //Exercise 10
 console.log(lessThanHundred(45, 13))
+<<<<<<< HEAD
 //Exercise 11
 console.log(andOperator(true, false))
 //Exercise 12
@@ -58,3 +64,7 @@ console.log(equalNumbers(3, 3))
 console.log(addupNumbers(5))
 //Exercise 14
 console.log(minMax())
+=======
+//Exercise 15
+console.log(sortDrinksByPrice())
+>>>>>>> Exercise-15-sort-drinking
