@@ -6,6 +6,8 @@ import { incrementNumber } from './exercises/exercise-2-increment-number'
 import { triangleArea } from './exercises/exercise-3-triangle'
 //Exercise 4 import
 import { ageToDays } from './exercises/exercise-4-age-to-days'
+//Exercise 5 import
+import { powerCalculator } from './exercises/exercise-5-power-calculator'
 //Exercise 7 import
 import { hoursToSeconds } from './exercises/exercise-7-hours-to-seconds'
 //Exercise 8 import
@@ -23,6 +25,8 @@ console.log(incrementNumber(0))
 console.log(triangleArea(3, 5))
 //Exercise 4
 console.log(ageToDays(20))
+//Exercise 5
+console.log(powerCalculator(230, 10))
 //Exercise 7
 console.log(hoursToSeconds(3))
 //Exercise 8
