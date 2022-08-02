@@ -6,8 +6,11 @@ import { incrementNumber } from './exercises/exercise-2-increment-number'
 import { triangleArea } from './exercises/exercise-3-triangle'
 //Exercise 4 import
 import { ageToDays } from './exercises/exercise-4-age-to-days'
+<<<<<<< HEAD
 //Exercise 5 import
 import { powerCalculator } from './exercises/exercise-5-power-calculator'
+//Exercise 6 import
+import { getFirstIndex } from './exercises/exercise-6-first-element-array'
 //Array for exercise 6
 const getFirstValue = [90, 50, 7, 100, 150]
 const [firstValue] = getFirstValue
@@ -19,8 +22,8 @@ import { remainderOfNumbers } from './exercises/exercise-8-remainder-of-numbers'
 import { lessThenZero } from './exercises/exercise-9-less-than-zero'
 //Exercise 10 import
 import { lessThanHundred } from './exercises/exercise-10-less-than-hundred'
-//Exercise 6 import
-import { getFirstIndex } from './exercises/exercise-6-first-element-array'
+//Exercise 11 import
+import { andOperator } from './exercises/Exercise-11-operator'
 
 //Exervise 1
 console.log(minutesToSeconds(10))
@@ -42,3 +45,5 @@ console.log(remainderOfNumbers(15, 10))
 console.log(lessThenZero(1))
 //Exercise 10
 console.log(lessThanHundred(45, 13))
+//Exercise 11
+console.log(andOperator(true, false))
